@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Maha Entertainments</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #e50914;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .content-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .content-item img {
+            width: 100px;
+            height: 150px;
+            margin-right: 10px;
+        }
+
+        .content-item:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .search-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #searchInput {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        #searchResults {
+            margin-top: 10px;
+        }
+/* Add this to your existing styles or create a new section */
+.trending-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.content-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-item:hover {
+    transform: scale(1.05);
+}
+
+.content-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e50914; 
+}
+
+.content-item p {
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+.trending-section {
+ 
+}
+
+.content-item {
+ 
+}
+
+.highlighted-text {
+    color: #e50914; 
+    font-weight: bold;
+}
+.recommended-section {
+
+}
+
+.content-item {
+ 
+}
+
+.highlighted-image {
+    width: 50%;
+    height: auto;
+    border: 2px solid #e50914; 
+    border-radius: 10px;
+}
+
+.highlighted-text {
+    color: #e50914; 
+    font-weight: bold;
+}
+.search-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+}
+
+#searchResults {
+    margin-top: 10px;
+}
+
+.content-item img {
+    width: 100%; 
+    height: 200px; 
+    margin-right: 10px;
+    object-fit: cover; 
+}
+
+.highlighted-image {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #e50914;
+    border-radius: 10px;
+    object-fit: cover;
+}
+header {
+    background-color: #e50914;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1 class="logo">Maha Ahha...</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Sign-in</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Movies</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+    <section class="trending-section">
+        <h2>Trending Movies</h2>
+        <div class="content-item">
+            <img src="/Users/chatr/Downloads/ms dhoni.jpg" alt="Ms Dhoni-Telugu">
+            <p>Ms Dhoni-Telugu</p>
+        </div>
+        <div class="content-item">
+            <img src="/Users/chatr/Downloads/Sanam teri kasam.jpg" alt="Sanam Teri Kasam">
+            <p>Sanam Teri Kasam</p>
+        </div>
+        <div class="content-item">
+            <img src="/Users/chatr/Downloads/Harry Potter.jpg" alt="Harry Potter">
+            <p>Harry Potter</p>
+        </div>
+
+    </section>
+
+        <section class="trending-section">
+            <h2>Trending Dramas</h2>
+            <div class="content-item">
+                <img src="/Users/chatr/Downloads/Hidden Love.jpeg" alt="C-Drama">
+                <p class="highlighted-text">Hidden Love</p>
+            </div>
+            <div class="content-item">
+                <img src="/Users/chatr/Downloads/Mermaid.jpeg" alt="K-Drama">
+                <p>Mermaid</p>
+            </div>
+        </section>
+<section class="recommended-section">
+    <h2>Recommended Series</h2>
+
+    <div class="content-item">
+        <img src="C:\Users\chatr\OneDrive\Pictures\badi heroine banti hai.jpg" alt="Recommended 1" class="highlighted-image">
+        <p class="highlighted-text">Badi heroine Banti Hai</p>
+    </div>
+    <div class="content-item">
+        <img src="C:\Users\chatr\Downloads\culpamia.jpg" alt="Recommended 2" class="highlighted-image">
+        <p class="highlighted-text">Culpa Mia</p>
+    </div>
+</section>
+
+<section class="search-section">
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput" placeholder="Search for movies or series...">
+    <div id="searchResults"></div>
+</section>
+
+    <footer>
+        &copy; 2024 Shikha Netflix. All rights reserved.
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const searchResults = document.getElementById('searchResults');
+
+            const contentList = ['Movie 1', 'Movie 2', 'Series 1', 'Series 2'];
+
+            searchInput.addEventListener('input', function () {
+                const searchTerm = searchInput.value.toLowerCase();
+                const filteredResults = contentList.filter(content => content.toLowerCase().includes(searchTerm));
+
+                displaySearchResults(filteredResults);
+            });
+
+            function displaySearchResults(results) {
+                searchResults.innerHTML = '';
+
+                results.forEach(result => {
+                    const resultItem = document.createElement('div');
+                    resultItem.classList.add('content-item');
+                    resultItem.innerHTML = `<img src="placeholder.jpg" alt="${result}"><p>${result}</p>`;
+                    searchResults.appendChild(resultItem);
+
+                    resultItem.addEventListener('click', function () {
+                        window.location.href = 'content.html';
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
